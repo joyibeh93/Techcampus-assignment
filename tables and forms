@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Que 1: a Table that contain the details of five random person</h1>
+    <table  border="1">
+        <thead>
+            <th>s/n</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Height</th>
+            <th>Weight</th>
+            <th>Gender</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Tobi Fasanya</td>
+                <td>27</td>
+                <td>1.53</td>
+                <td>60kg</td>
+                <td>Male</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>kelani Fausiat</td>
+                <td>17</td>
+                <td>1.53</td>
+                <td>45kg</td>
+                <td>female</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>David Elizabeth</td>
+                <td>37</td>
+                <td>1.43</td>
+                <td>63kg</td>
+                <td>female</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Donald Madueke</td>
+                <td>32</td>
+                <td>1.57</td>
+                <td>59kg</td>
+                <td>Male</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Deborah Joy</td>
+                <td>23</td>
+                <td>1.43</td>
+                <td>55kg</td>
+                <td>female</td>
+            </tr>
+        </tbody>
+    </table>
+    
+<h2>Que:2 Creat a Username registration form that would allows a user to enter their <br>Name ,Username,Email,Password and also a submit button</h2>
+</p>
+<form action="">
+    <fieldset>
+    <legend>User registration form</legend>
+    <label for="name">Name</label><br>
+    <input type="text" name="name" id="name" placeholder="enter your name"><br><br>
+    <label for="username">Username</label><br>
+    <input type="text" name="username" id="usernamed" placeholder="enter your username"><br><br>
+    <label for="email">Email</label><br>
+    <input type="email" name="email" id="email" placeholder="enter your email"><br><br>
+    <label for="Password">Password</label><br>
+    <input type="password" name="password" id="password" placeholder="enter your email"><br><br>
+    <button type="button" value="SIGN IN"> Sign in</button>
+    </fieldset>
+</form>
+</body>
+</html>
